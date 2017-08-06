@@ -14,7 +14,7 @@ app = Flask(options.environment)
 # initialize routes
 @app.route('/')
 def index():
-    return "Hello, World!"
+    return "You have a flask API running inside a docker container!"
 
 # run the app
 app.run(host='0.0.0.0',
